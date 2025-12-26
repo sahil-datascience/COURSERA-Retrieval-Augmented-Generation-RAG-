@@ -65,6 +65,7 @@ def generate_with_single_input(prompt: str,
                   }
     if (not together_api_key) and ('TOGETHER_API_KEY' not in os.environ):
         url = os.path.join('https://proxy.dlai.link/coursera_proxy/together', 'v1/chat/completions')   
+        
         response = requests.post(url, json = payload, verify=False)
         if not response.ok:
             raise Exception(f"Error while calling LLM: f{response.text}")

@@ -7,6 +7,7 @@ Some LLM specific calls may not work unless you set desired models and keys. Che
 Normally Install Transformers, it will work.
 
 # Module 3: 
-This module has to be run in **Linux** environement. 
+This module has to be run in **Linux** environement. LLM calls not working locally, needed to be customised.
+
 
 

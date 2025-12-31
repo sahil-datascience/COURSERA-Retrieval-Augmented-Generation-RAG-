@@ -14,3 +14,6 @@ __pycache__/
 # Ignore 
 .collections/
 .models/
+
+# Igore .Trash-0 folder
+.Trash-0/
